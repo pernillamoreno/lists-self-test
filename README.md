@@ -1,3 +1,3 @@
 # Självdiagnos
 
-Gör uppgifterna i Main.java per instruktionerna i filen [Main.java](Main.java)
+Gör uppgifterna per instruktionerna i filen [Main.java](Main.java)
