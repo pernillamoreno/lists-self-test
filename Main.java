@@ -122,6 +122,8 @@ public class Main {
         tempatures.remove(tempatures.size()-2);
         tempatures.remove(tempatures.size()-1);
     
+      System.out.println(tempatures);
+    
     
     
 
