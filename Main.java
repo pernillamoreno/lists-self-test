@@ -118,8 +118,8 @@ public class Main {
     hasStructure("[17.9, 18.5, 19.0, 19.1, 18.5, 13.2]", "Silent operation", tempatures, true); // Verifierar struktur (DO NOT TOUCH THIS LINE)
 
     /* ****** Studerande kod till Delete Operation #7 ****** */
-    List<Double> tempatures = new ArrayList<>(Arrays.asList(17.9,18.5, 19.0, 19.1, 18.5, 13.2));
-        tempatures.remove(tempatures.size()-2);
+    List<Double> tempatures = new ArrayList<>(Arrays.asList(17.9, 18.5, 19.0, 19.1, 18.5, 13.2));
+        tempatures.remove(tempatures.size()-5);
         tempatures.remove(tempatures.size()-1);
     
       System.out.println(tempatures);
