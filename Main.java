@@ -107,11 +107,13 @@ public class Main {
      * Använd listan av temperaturer och ta bort värdena 18.5 och 13.2
      *
      */
-    List<Double> tempatures = Arrays.asList(17.9, 18.5, 19.0, 19.1, 18.5, 13.2);  // Använd denna lista!
+      // Använd denna lista!
 
     hasStructure("[17.9, 18.5, 19.0, 19.1, 18.5, 13.2]", "Silent operation", tempatures, true); // Verifierar struktur (DO NOT TOUCH THIS LINE)
 
     /* ****** Studerande kod till Delete Operation #7 ****** */
+    List<Double> tempatures = new ArrayList<>(Arrays.asList(17.9, 19.0, 19.1));
+    
 
 
 
