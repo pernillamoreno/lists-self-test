@@ -47,6 +47,11 @@ public class Main {
     List<String> names  = new ArrayList<>();  // Använd denna lista!
 
     /* ****** Studerande kod till Create operation #2 ****** */
+         chars.add('A');
+          chars.add('B');
+          chars.add('C');
+          chars.add('A');
+          chars.add('E');
 
 
 
@@ -72,7 +77,12 @@ public class Main {
     List<Character> chars  = new ArrayList<>();  // Använd denna lista!
 
     /* ****** Studerande kod till Read Operation #3, 4 & 5 ****** */
-
+      brands.set(0, "SAAB"
+      brands.set(1, "Volvo");
+      brands.set(2, "Ford");
+      brands.set(3,"Nissan");
+      brands.set(4, "Scania");
+  
 
 
 
@@ -125,7 +135,8 @@ public class Main {
     
     
     List<Double> tempatures = new ArrayList<>(Arrays.asList(17.9, 19.0, 19.1));
-   
+        tempatures.remove(tempatures.size()-5);
+        tempatures.remove(tempatures.size()-1);
  
     
 
